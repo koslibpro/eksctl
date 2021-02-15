@@ -5,8 +5,7 @@ module github.com/weaveworks/eksctl
 go 1.15
 
 require (
-	github.com/Azure/go-autorest/autorest v0.10.0 // indirect
-	github.com/aws/aws-sdk-go v1.35.4
+	github.com/aws/aws-sdk-go v1.36.1
 	github.com/benjamintf1/unmarshalledmatchers v0.0.0-20190408201839-bb1c1f34eaea
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/bxcodec/faker v2.0.1+incompatible
@@ -20,8 +19,8 @@ require (
 	github.com/github-release/github-release v0.8.1
 	github.com/gobwas/glob v0.2.3
 	github.com/gofrs/flock v0.8.0
-	github.com/golangci/golangci-lint v1.33.0
-	github.com/goreleaser/goreleaser v0.147.1
+	github.com/golangci/golangci-lint v1.36.0
+	github.com/goreleaser/goreleaser v0.155.2
 	github.com/inconshreveable/log15 v0.0.0-20200109203555-b30bc20e4fd1 // indirect
 	github.com/instrumenta/kubeval v0.0.0-20190918223246-8d013ec9fc56
 	github.com/justinbarrick/go-k8s-portforward v1.0.3
@@ -34,23 +33,25 @@ require (
 	github.com/lithammer/dedent v1.1.0
 	github.com/maxbrunsfeld/counterfeiter/v6 v6.3.0
 	github.com/onsi/ginkgo v1.14.2
-	github.com/onsi/gomega v1.10.3
+	github.com/onsi/gomega v1.10.4
 	github.com/pelletier/go-toml v1.8.1
 	github.com/pkg/errors v0.9.1
 	github.com/russross/blackfriday/v2 v2.1.0
-	github.com/spf13/afero v1.4.1
-	github.com/spf13/cobra v1.1.1
+	github.com/spf13/afero v1.5.1
+	github.com/spf13/cobra v1.1.3
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.6.1
+	github.com/stretchr/testify v1.7.0
 	github.com/tidwall/gjson v1.6.3
 	github.com/tidwall/sjson v1.1.2
+	github.com/tommy-muehle/go-mnd v1.3.1-0.20200224220436-e6f9a994e8fa // indirect
 	github.com/tomnomnom/linkheader v0.0.0-20180905144013-02ca5825eb80 // indirect
 	github.com/vektra/mockery v0.0.0-20181123154057-e78b021dcbb5
 	github.com/voxelbrain/goptions v0.0.0-20180630082107-58cddc247ea2 // indirect
 	github.com/weaveworks/goformation/v4 v4.10.2-0.20201201143936-6016cb59d8ca
 	github.com/weaveworks/launcher v0.0.2-0.20200715141516-1ca323f1de15
 	github.com/whilp/git-urls v0.0.0-20191001220047-6db9661140c0
-	golang.org/x/tools v0.0.0-20201023174141-c8cfbd0f21e6
+	golang.org/x/tools v0.0.0-20210105210202-9ed45478a130
+	google.golang.org/grpc/examples v0.0.0-20210212222430-425d405f3928 // indirect
 	k8s.io/api v0.16.8
 	k8s.io/apiextensions-apiserver v0.16.8
 	k8s.io/apimachinery v0.16.8
