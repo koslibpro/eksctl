@@ -5,8 +5,7 @@ module github.com/weaveworks/eksctl
 go 1.15
 
 require (
-	github.com/Azure/go-autorest/autorest v0.10.0 // indirect
-	github.com/aws/aws-sdk-go v1.35.4
+	github.com/aws/aws-sdk-go v1.36.1
 	github.com/benjamintf1/unmarshalledmatchers v0.0.0-20190408201839-bb1c1f34eaea
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/bxcodec/faker v2.0.1+incompatible
@@ -21,7 +20,7 @@ require (
 	github.com/gobwas/glob v0.2.3
 	github.com/gofrs/flock v0.8.0
 	github.com/golangci/golangci-lint v1.33.0
-	github.com/goreleaser/goreleaser v0.147.1
+	github.com/goreleaser/goreleaser v0.162.1
 	github.com/inconshreveable/log15 v0.0.0-20200109203555-b30bc20e4fd1 // indirect
 	github.com/instrumenta/kubeval v0.0.0-20190918223246-8d013ec9fc56
 	github.com/justinbarrick/go-k8s-portforward v1.0.3
@@ -39,9 +38,9 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/russross/blackfriday/v2 v2.1.0
 	github.com/spf13/afero v1.4.1
-	github.com/spf13/cobra v1.1.1
+	github.com/spf13/cobra v1.1.3
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.6.1
+	github.com/stretchr/testify v1.7.0
 	github.com/tidwall/gjson v1.6.3
 	github.com/tidwall/sjson v1.1.2
 	github.com/tomnomnom/linkheader v0.0.0-20180905144013-02ca5825eb80 // indirect
@@ -50,7 +49,7 @@ require (
 	github.com/weaveworks/goformation/v4 v4.10.2-0.20201201143936-6016cb59d8ca
 	github.com/weaveworks/launcher v0.0.2-0.20200715141516-1ca323f1de15
 	github.com/whilp/git-urls v0.0.0-20191001220047-6db9661140c0
-	golang.org/x/tools v0.0.0-20201023174141-c8cfbd0f21e6
+	golang.org/x/tools v0.0.0-20210105210202-9ed45478a130
 	k8s.io/api v0.16.8
 	k8s.io/apiextensions-apiserver v0.16.8
 	k8s.io/apimachinery v0.16.8
